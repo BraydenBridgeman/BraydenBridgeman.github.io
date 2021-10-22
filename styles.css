@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     max-width: 100%;
-    background-color: white;
+    background-color: rgb(255, 175, 122, 0.25);
 }
 
 /* Brayden Bridgeman Logo */
@@ -12,12 +12,12 @@ img {
     height: 55px;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     display: inline-block;
     transition-duration: 0.5s;
 }
-  
+
 img:hover {
     color: white;
     transform: scale(1.15);
@@ -76,4 +76,21 @@ ul li {
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     color: rgb(255, 175, 122);
+}
+
+/* header container */
+.container .jumbotron {
+    border-radius: 50px;
+}
+
+/* jumbo-tron container */
+.jumbotron {
+    background-color:rgb(255, 175, 122, .5);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-shadow: 6px 6px 4px black;
+    background-image: url("assets/IMG_0769.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
