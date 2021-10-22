@@ -3,57 +3,77 @@ html, body {
     padding: 0;
     height: 100%;
     max-width: 100%;
-    background-color: darkgray;
+    background-color: white;
 }
 
-span img {
-    height: 50px;
+/* Brayden Bridgeman Logo */
+img {
+    position: relative;
+    height: 55px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
 }
   
-span img:hover {
+img:hover {
     color: white;
     transform: scale(1.15);
 }
-  
-nav {
-    background-color: rgba(255, 217, 0, 0.5);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-  
-nav ul {
-    display: flex;
-    text-align: center;
-    font-family: sans-serif;
-    float: right;
-    top: 0;
-    list-style: none;
-}
-  
-nav li {
-    list-style-type: none;
-    display: block;
-    text-align: center;
-    position: sticky;
-    float: right;
-    top: 0;
+
+/* Full NavBar */
+.navbar {
+    background-color: rgb(255, 175, 122);
+    border-radius: 50px;
 }
 
-nav a {
+/*Collapse Nav Bar*/
+.collapse.navbar-collapse {
+    border-radius: 50px;
+    background-color: rgb(255, 175, 122);
+}
+
+/* Brayden Bridgeman Logo in nav bar */
+.navbar-header {
+    border-radius: 50px;
+    position: absolute;
+    left: 15px;
+}
+
+/* Nav Buttons - Home About Projects Contact */
+.container-fluid {
+    background-color: rgb(255, 175, 122);
+    border-radius: 50px;
+    float: right;
+}
+
+.navbar-toggle {
+    border-radius: 50px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgb(255, 175, 122);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgb(255, 175, 122);
+}
+
+/* Home Square */
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+
+#myNavBar {
+    background-color: rgb(255, 175, 122);
+}
+
+ul li {
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    height: 3rem;
-    text-transform: capitalize;
-    color: rgb(255, 255, 255);
-    padding-right: 50px;
-    top: 0;
+    color: rgb(255, 175, 122);
 }
