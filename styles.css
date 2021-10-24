@@ -23,52 +23,21 @@ img:hover {
     transform: scale(1.15);
 }
 
-/* Full NavBar */
+/* navbar */
 .navbar {
-    background-color: rgb(255, 175, 122);
     border-radius: 50px;
 }
 
-/*Collapse Nav Bar*/
-.collapse.navbar-collapse {
-    border-radius: 50px;
-    background-color: rgb(255, 175, 122);
+.navbar-nav .dropdown-menu {
+    position: static;
 }
 
-/* Brayden Bridgeman Logo in nav bar */
-.navbar-header {
-    border-radius: 50px;
-    position: absolute;
-    left: 15px;
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* Nav Buttons - Home About Projects Contact */
-.container-fluid {
-    background-color: rgb(255, 175, 122);
-    border-radius: 50px;
-    float: right;
-}
-
-.navbar-toggle {
-    border-radius: 50px;
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: rgb(255, 175, 122);
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: rgb(255, 175, 122);
-}
-
-/* Home Square */
-.navbar-inverse .navbar-nav>li>a {
-    color: #000000;
-}
-
-#myNavBar {
-    background-color: rgb(255, 175, 122);
+.dropdown-menu.show {
+    display: inline-block;
 }
 
 ul li {
@@ -79,13 +48,16 @@ ul li {
 }
 
 /* header container */
-.container .jumbotron {
+.container.mt-3 {
     border-radius: 50px;
+    height: 500px;
 }
 
 /* jumbo-tron container */
-.jumbotron {
+.mt-4.p-5.bg-primary.text-white.rounded {
     background-color:rgb(255, 175, 122, .5);
+    border: 2px solid black;
+    border-radius: 50px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     text-shadow: 6px 6px 4px black;
