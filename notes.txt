@@ -4,3 +4,7 @@ background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
+
+<div class="clearfix">
+            <img src="assets/Canvas Profile Picture.PNG" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Brayden Bridgeman Profile Picture">
