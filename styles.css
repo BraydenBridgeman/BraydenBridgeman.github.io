@@ -265,3 +265,14 @@ h2 {
 }
 
 /* Resume Section */
+
+.resumeContainer {
+    margin: auto;
+    width: 50%;
+}
+
+img[src="assets/Brayden_Bridgeman_Resume.png"] {
+    width: 40%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
