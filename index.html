@@ -132,12 +132,31 @@
     </div>
       
       <!-- Contact Form / Resume Button Download -->
-    <h2 id="section3">Contact</h2>
-    <div class="container-fluid">
-      <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email address</label>
-      </div>
+      <div class="containerForm">
+        <h2 id="section3">Contact</h2>
+        <form action="https://formspree.io/f/xjvjdqbb" method="post">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" name="emailSend" placeholder="name@example.com" required>
+          <label for="floatingInput">Email address</label>
+        </div>
+        
+        <!-- Full Name -->
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" name="fullNameSend" placeholder="Full Name" required>
+          <label for="floatingInput">Full Name</label>
+        </div>
+
+        <!-- Comments Section -->
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Comments?</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="commentsSection" rows="3"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
     </div>  
 
     </body>

@@ -206,11 +206,25 @@ h2 {
 
 #section3 {
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 2em;
     color: white;
+    text-shadow: 6px 6px 4px black;
 }
+
+.containerForm {
+    width: 100%;
+    padding-right: 250px;
+    padding-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("assets/Chicago_IL\ \(32\ of\ 53\).jpg");
+    background-size: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
