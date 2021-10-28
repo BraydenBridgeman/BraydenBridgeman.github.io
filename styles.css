@@ -218,8 +218,8 @@ h2 {
 
 .containerForm {
     width: 100%;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: var(--bs-gutter-x,2rem);
+    padding-left: var(--bs-gutter-x,2rem);
     margin-right: auto;
     margin-left: auto;
     background-image: url("assets/Chicago_IL\ \(32\ of\ 53\).jpg");
@@ -228,3 +228,19 @@ h2 {
     background-attachment: fixed;
 }
 
+.form-label {
+    text-shadow: 6px 6px 4px black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 1em;
+}
+
+.btn-primary {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-shadow: 6px 6px 4px black;
+    font-family: 'Ubuntu', sans-serif;
+}
