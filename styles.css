@@ -56,7 +56,7 @@ img:hover[src="assets/BraydenWatermark.png"] {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -103,7 +103,7 @@ border possibly delete later? */
     text-shadow: 6px 6px 4px black;
     background-image: url("assets/Chicago_IL\ \(33\ of\ 53\).jpg");
     background-attachment: fixed;
-    background-size: 138%;
+    background-size: 125%;
     background-position: bottom;
 }
 
@@ -141,7 +141,7 @@ img[src="assets/Canvas Profile Picture.PNG"] {
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     display: flex;
     max-width: 316.2px;
     height: 393.276px;
@@ -190,4 +190,27 @@ img[src="assets/Canvas Profile Picture.PNG"] {
 h2 {
     font-family: 'Ubuntu', sans-serif;
     color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+    padding-top: 10px;
+}
+
+.container p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Contact Section */
+
+#section3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: white;
 }
