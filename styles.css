@@ -72,6 +72,18 @@ img:hover[src="assets/BraydenWatermark.png"] {
     border: 15px;
 }
 
+img[src="assets/camera.png"] {
+    padding-right: 2px;
+}
+
+img[src="assets/GitHub-Mark-64px.png"] {
+    padding-right: 2px;
+}
+
+img[src="assets/LI-In-Bug.png"] {
+    padding-right: 2px;
+}
+
 .dropdown-menu.show {
     display: block;
     border-radius: 25px;
@@ -276,7 +288,18 @@ h2 {
 }
 
 /* Resume/Footer Section */
+.footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+
 .text-center {
-    padding-bottom: 0px;
-    background-color: transparent;
+    width: 100%;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 75px;
+    padding-bottom: 25px;
 }
