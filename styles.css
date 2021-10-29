@@ -123,7 +123,7 @@ border possibly delete later? */
 }
 
 .heroName {
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .titleName {
@@ -159,7 +159,6 @@ img[src="assets/Canvas Profile Picture.PNG"] {
     display: flex;
     max-width: 300px;
     height: auto;
-    border-radius: 10px;
 }
 
 p.card-text {
@@ -253,7 +252,7 @@ h2 {
 .containerForm {
     width: 100%;
     padding-top: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 410px;
     padding-right: var(--bs-gutter-x,11rem);
     padding-left: var(--bs-gutter-x, 11rem);
     margin-right: auto;
@@ -294,12 +293,52 @@ h2 {
     text-align: center;
 }
 
+.iconRow {
+    background-color: white;
+    padding-top: 25px;
+    width: 100%;
+}
 
+.instagramIcon {
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.linkedInIcon {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gitHubIcon {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.resumeIcon {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}   
+
+.iconSources {
+    color: black;
+    padding-top: 30px;
+    font-size: 12px;
+}
 
 .text-center {
     width: 100%;
     color: black;
     font-family: 'Ubuntu', sans-serif;
-    padding-top: 75px;
-    padding-bottom: 25px;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
