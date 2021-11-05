@@ -2,30 +2,4 @@
 
 <a target="_blank" href="https://icons8.com/icon/23877/resume">Resume</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-
-<div class="clearfix">
-            <img src="assets/Canvas Profile Picture.PNG" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Brayden Bridgeman Profile Picture">
-
-
-<div class="footerContainer">
-        <a href="assets/Brayden_Bridgeman_Resume.pdf" download="Brayden Bridgeman Resume">
-          <img src="assets/icons8-resume-50.png" class="mx-auto d-block" alt="Brayden Bridgeman Resume">
-        </a>
-      </div>
-
-
-      .footerContainer {
-    margin: auto;
-    width: 50%;
-}
-
-img[src="assets/icons8-resume-50.png"] {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: white;
-}
+https://unsplash.com/photos/ULTjKqGx27M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
