@@ -3,11 +3,11 @@ html, body {
     padding: 0;
     height: 100%;
     max-width: 100%;
-    background-color: darkgray;
-    /* background-image: url("assets/cityTexture.jpg");
+    background-color: rgb(119,136,153);
+    background-image: url("assets/Patterns-Rosebuds-1200.png");
     background-attachment: fixed;
     background-size: 100%;
-    background-position: top; */
+    background-position: 20% 20%;
     scroll-behavior: smooth;
 }
 
@@ -309,7 +309,7 @@ h2 {
 .footer {
     width: 100%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(46, 46, 46);
 }
 
 .iconRow {
